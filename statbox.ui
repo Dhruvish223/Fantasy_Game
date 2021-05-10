@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>442</width>
+    <height>456</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="Okay">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>400</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Okay</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>421</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="Name">
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="N"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="C"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="Matches">
+      <property name="text">
+       <string>Matches</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="M"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="NotOuts">
+      <property name="text">
+       <string>Not Outs</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="NO"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="Runs">
+      <property name="text">
+       <string>Runs</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="R"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="Hundreds">
+      <property name="text">
+       <string>100's</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="H"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="Fifties">
+      <property name="text">
+       <string>50's</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="F"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="Catches">
+      <property name="text">
+       <string>Catches</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="Ct"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="Stumping">
+      <property name="text">
+       <string>Stumping</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="St"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="Wickets">
+      <property name="text">
+       <string>Wickets</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="Wkt"/>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="RunsGiven">
+      <property name="text">
+       <string>Runs Given</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLineEdit" name="RG"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="Category">
+      <property name="text">
+       <string>Category</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="Economy">
+      <property name="text">
+       <string>Economy</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QLineEdit" name="Eco"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="ShowStats">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>400</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Show Stats</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
