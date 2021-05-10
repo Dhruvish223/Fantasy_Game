@@ -1,0 +1,30 @@
+This projects folder contains 7 files:
+1. page1.py which contains the main program to be executed.
+2. page.ui which is the ui page 
+3. dlgscore.py which contains the function for calculating the points of individual players.
+4. statbox.py which contains the function to display the stats of selected player.
+5. statbox.ui which is the ui file for displaying the stats of selected player.
+6. Fpx_11.db which is the database file containg all the data in form of various tables.
+7. Project Synopsis which contains information about the project.
+
+
+How to Use:
+To use the Fantasy game, open the page1.py file and run the program.
+
+A gui will appear which shows all the various options you see in a fantasy game.
+
+To create a new team, go to File Menu in the menubar and select New Team.
+
+A dialog box appears asking for a team name. Enter a name and click OK.
+
+Click on the Radio buttons (Wk, Ar, Bat, Bowl) to select the category.
+
+Double click on the player to select him in the team.
+
+You can also see stats of a player by single click on a player and then dragging.
+
+When finished with player selection, click on File Menu and select Save Team.
+
+Now you can choose to open an already created team or evaluate your team by selecting Open Team or Evaluate Team from File Menu.
+
+After you select Evaluate Team, a new dialog box appears which asks you to select one of the Saved teams and the match and then click on Evaluate button to get the score of all individual players in your team and the Total score of your team.  
